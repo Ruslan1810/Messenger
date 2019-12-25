@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="messengerclient.FXMLDocumentClientController">
+    <children>
+        <Button fx:id="buttonSendMessage" layoutX="392.0" layoutY="464.0" onAction="#handleButtonSendMessage" text="Отправить" />
+        <Label layoutX="375.0" layoutY="14.0" minHeight="16" minWidth="69" text="История переписки" />
+      <Label layoutX="379.0" layoutY="370.0" minHeight="16" minWidth="69" text="Новое сообщение" />
+      <TextArea fx:id="TextAreaHistory" layoutX="211.0" layoutY="40.0" prefHeight="318.0" prefWidth="464.0" />
+      <TextArea fx:id="TextAreaSend" layoutX="211.0" layoutY="401.0" prefHeight="25.0" prefWidth="464.0" />
+    </children>
+</AnchorPane>
